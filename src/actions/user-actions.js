@@ -1,5 +1,5 @@
 import { setForms } from "@/store/formSlice";
-import { setLoading, setUser, setIsCheckingAuth, setIsAuthenticated } from "../../../frontend/src/store/userSlice";
+import { setLoading, setUser, setIsCheckingAuth, setIsAuthenticated } from "@/store/userSlice";
 import axios from "axios";
 import { toast } from "sonner";
 
